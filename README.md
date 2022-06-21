@@ -1,3 +1,3 @@
 # Section1-cardflip
--Hapus Section Contoh
+-Hapus Section Contoh <br>
 -Hapus Style #contoh pada style.css 
