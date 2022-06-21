@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/logo.svg" />
+
+    <!-- Bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap  -->
+
+    <!-- ICON BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- ICON BOOTSTRAP -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleumum.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+    <title>Section 1 Update Animation</title>
+    <script>
+        history.scrollRestoration = "manual";
+        window.onbeforeunload = function () {
+          window.scrollTo(0,0);
+          window.scrollTo(0,0);
+        };
+      </script>
+</head>
+<body>
+    <section id="section1-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col1 d-flex align-items-center">
+              <div>
+                <div class="mask1"></div>
+                <h2 class="eva">EFEKTIFKAN PROSES REKRUTMEN</h2>
+                <div class="mask1 mask1-2"></div>
+                <p class="mt-4 mb-5 parallax">
+                  Otomatiskan screening CV, pengiriman jadwal interview, test,
+                  dan aktivitas rekrutmen lainnya secara mudah dan otomatis.
+                </p>
+                <div class="mask3"></div>
+                <div class="btnparallax">
+                  <a href="#form">
+                    <button class="solusibtn bayangan">
+                      Dapatkan Solusi &nbsp; &nbsp;<i
+                        class="fa fa-arrow-right"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col d-flex justify-content-center align-items-center col2"
+            >
+              <div class="mask2"></div>
+              <div class="bgorang bayangan">
+                <img
+                  class="orang"
+                  src="assets/Section1-1_orang2.webp"
+                  alt="cindy"
+                />
+              </div>
+              <div class="kart5">
+                <p class="changetext2"></p>
+                <p class="changetext1"></p>
+                <p class="changetext2_2"></p>
+                <p class="changetext1_2"></p>
+              </div>
+              <div id="cardFlipWrap">
+                <div class="cardCont kart1">
+                  <div class="cardBack"></div>
+                  <div class="cardFront"></div>
+                </div>
+                <div class="cardCont kart2">
+                  <div class="cardBack"></div>
+                  <div class="cardFront"></div>
+                </div>
+                <div class="cardCont kart3">
+                  <div class="cardBack"></div>
+                  <div class="cardFront"></div>
+                </div>
+                <div class="cardCont kart4">
+                  <div class="cardBack"></div>
+                  <div class="cardFront"></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 d-flex align-items-center justify-content-center"
+            >
+              <div class="panahlingkaran" onclick="scrollWin()">
+                <i class="fa-solid fa-arrow-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="contoh">
+    </section>
+
+    <!-- GSAP UMUM -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- GSAP UMUM -->
+
+    <!-- GSAP SCROLLTRIGGER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <!-- GSAP SCROLLTRIGGER -->
+
+    <!-- GSAP TEXT PLUGIN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/TextPlugin.min.js"></script>
+    <!-- GSAP TEXT PLUGIN -->
+
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY -->
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4e2a92fa84.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome -->
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+    <script src="app.js"></script>
+</body>
+</html>
